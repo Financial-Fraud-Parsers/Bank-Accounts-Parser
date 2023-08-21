@@ -385,7 +385,7 @@ class Bank:
 if __name__ == '__main__':
     #folder_textdoc_path = sys.argv[1]
     #textdoc_paths = base_parser.get_textdoc_paths(folder_textdoc_path)
-    textdoc_paths = glob.glob(r'./Bank-Accounts-Parser/Sample-Textfiles/*.txt')
+    textdoc_paths = glob.glob(r'C:/Users/kaurm/Desktop/OCR/Navy-Federal-Project/Data/July/Checks/Textfiles/*.txt')
     print(len(textdoc_paths))
     #print("HelloHElllo")
     #print(textdoc_paths)
